@@ -147,4 +147,8 @@ body {
 /*Cambios*/
 #puntaje {
   font-size: 5vh;
+  background-color: #f60000;
+  border: 3px solid #dbe813;
+  padding: 0;
+  width: 6vw;
 }/*# sourceMappingURL=styles.css.map */
