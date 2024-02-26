@@ -43,7 +43,7 @@ body {
 }
 
 .nombreDrag {
-  background-color: gray;
+  background-color: rgb(238, 236, 236);
   color: white;
   text-align: center;
   vertical-align: middle;
