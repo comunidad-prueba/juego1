@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mynerve&family=Open+Sans&family=Shantell+Sans:ital,wght@1,300&family=Tilt+Prism&display=swap");
+body {
+  height: 96vh;
+  margin: 0;
+  font-family: "Shantell Sans", cursive;
+  background-color: rgb(165, 255, 147);
+}
+
+#cont1 {
+  background-image: url("img/fondo.jpg");
+  background-size: cover;
+  width: 90vw;
+  height: 93vh;
+  margin: 4vh 5vw 3vh 5vw;
+  border: 1px solid black;
+  padding: 0;
+  display: flex;
+  border-radius: 5px;
+}
+
+#cont21 {
+  width: 80%;
+  height: 100%;
+  margin: 0;
+}
+
+#cont22 {
+  margin: 2vh 0 0 0;
+  width: 20%;
+  height: 100%;
+}
+
+#cronometro {
+  padding: 3vh 0 2vh 0;
+}
+#cronometro #botones {
+  width: 100%;
+  height: 10vh;
+}
+
+#nombres {
+  display: grid;
+}
+
+.nombreDrag {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px black solid;
+  width: 90%;
+  height: 5vh;
+  margin: 2vh 0 2vh 0;
+  border-radius: 1vh;
+  padding: 1vh 0 0 0;
+  font-size: 3vh;
+}
+
+#regresar {
+  background-color: #f60000;
+  border: 3px solid #dbe813;
+  padding: 0;
+  width: 6vw;
+  margin-left: 1vw;
+}
+
+#musica {
+  opacity: 0.5;
+  background-color: #f60000;
+  border: 3px solid #dbe813;
+  padding: 0;
+  width: 6vw;
+  margin-left: 1vw;
+}
+
+.btnMenu {
+  width: 5vw;
+  background-color: #f60000;
+}
+
+#contAnimales1 {
+  border-radius: 5px;
+  width: 96%;
+  height: 75vh;
+  margin: 5vh 0 0 2%;
+}
+
+#cronometroReloj {
+  font-size: 5vh;
+  padding: 1vh 3vw 1vh 3vw;
+  color: white;
+  border: 3px white solid;
+  border-radius: 5px;
+  margin: 1vh 1vw 1vh 1vw;
+  background-color: grey;
+  background: "opacity: 0.5";
+}
+
+.contAnimales2 {
+  width: 100%;
+  border-radius: 5px;
+  height: 27vh;
+  margin: 4vh 0 0 0;
+  display: flex;
+}
+
+#contAnimales11 {
+  margin-top: 17vh;
+}
+
+.animal {
+  width: 25%;
+  border-radius: 5px;
+  height: 27vh;
+  margin: 0 4% 0 4%;
+}
+
+.imgAnimal {
+  width: 54%;
+  margin: 0 23% 0 23%;
+}
+
+.labelSoltado {
+  background-color: white;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px black solid;
+  border-radius: 1vh;
+  max-width: 15vw;
+  padding: 2vh 8vw 1vh 7vw;
+}
+
+.animalCorrecto {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px black solid;
+  width: 90%;
+  height: 5vh;
+  margin: 1vh 1vw 0 1vw;
+  border-radius: 1vh;
+  font-size: 4vh;
+  padding: 1vh 0 1vh 0;
+}
+
+#puntaje {
+  font-size: 5vh;
+  padding: 1vh 3vw 1vh 3vw;
+  color: white;
+  border: 3px white solid;
+  border-radius: 5px;
+  margin: 1vh 1vw 1vh 1vw;
+  background-color: aqua;
+}/*# sourceMappingURL=styles.css.map */

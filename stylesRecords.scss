@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mynerve&family=Open+Sans&family=Shantell+Sans:ital,wght@1,300&family=Tilt+Prism&display=swap");
+
+
+body{
+    background-color: aqua;
+    font-family: "Shantell Sans", cursive;
+}
+
+h1{
+    width: 60%;
+    margin: 0 20% 0 20%;
+    background-color: greenyellow;
+    border-radius: 2vh;
+    text-align: center;
+    color: white;
+    font-size: 7vh;
+    margin-bottom: 6vh;
+}
+tr{
+    background-color: #f60000;
+    color: white;
+}
+th{
+    border: 2px solid #dbe813;
+    padding: 1vh 2vw 1vh 2vw;
+    font-size: 3vh;
+} 

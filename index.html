@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Juego</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='styles.css'>
+    <script src='script.js'></script>
+</head>
+
+<body>
+    <div id="cont1">
+        <div id="cont21">
+            <div id="cronometro">
+                <label id="cronometroReloj">00:00:00</label>
+                <label id="puntaje">0</label>
+            </div>
+            <div id="contAnimales1">
+                <div>
+                    <div class="contAnimales2" id="contAnimales11">
+                        <div class="animal" id="animal1"></div>
+                        <div class="animal" id="animal2"></div>
+                        <div class="animal" id="animal3"></div>
+                    </div>
+                    <div class="contAnimales2">
+                        <div class="animal" id="animal4"></div>
+                        <div class="animal" id="animal5"></div>
+                        <div class="animal" id="animal6"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cont22">
+            <div id="botones">
+                <center>
+                    <button id="musica" onclick="reproducirPausarMusica()">
+                        <img src="img/pauseplay.png" alt="" class="btnMenu">
+                    </button>
+                    <button id="regresar" onclick="regresar()">
+                        <img src="img/back.png" alt="" class="btnMenu">
+                    </button>
+                </center>
+            </div>
+            <br>
+            <div id="nombres"></div>
+        </div>
+    </div>
+</body>
+
+</html>
